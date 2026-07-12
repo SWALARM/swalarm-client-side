@@ -1,0 +1,16 @@
+export const authMessages = {
+  LOGIN_SUCCESS: 'Logged in successfully!',
+  LOGIN_ERROR: 'Login failed. Please check your credentials.',
+  SIGNUP_SUCCESS: 'Account created successfully!',
+  SIGNUP_ERROR: 'Signup failed. Please try again.',
+  LOGOUT_SUCCESS: 'Logged out successfully!',
+  LOGOUT_ERROR: 'Logout failed. Please try again.',
+  FETCH_ME_ERROR: 'Failed to fetch user session.',
+  USERNAME_MIN: 'Username must be at least 2 characters',
+  EMAIL_INVALID: 'Please enter a valid email address',
+  PASSWORD_MIN: 'Password must be at least 8 characters',
+  PASSWORD_MAX: 'Password must not exceed 15 characters',
+  CONFIRM_PASSWORD_MIN: 'Confirm Password must be at least 8 characters',
+  CONFIRM_PASSWORD_MAX: 'Confirm Password must not exceed 15 characters',
+  CONFIRM_PASSWORD_MISMATCH: 'Passwords do not match',
+};
